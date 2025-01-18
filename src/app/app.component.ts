@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet, RouterModule } from '@angular/router';
-
+//popraven routing
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, RouterModule],
