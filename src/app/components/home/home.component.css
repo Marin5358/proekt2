@@ -1,0 +1,62 @@
+.hero {
+    background: linear-gradient(135deg, #4285f4, #34a853);
+    color: white;
+    padding: 3em;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  .cta-button {
+    background-color: white;
+    color: #4285f4;
+    padding: 0.8em 2em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #d9e5f7;
+  }
+  
+  .features {
+    margin-top: 2em;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5em;
+    padding: 0 2em;
+  }
+  
+  .feature-card {
+    background: white;
+    padding: 1.5em;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  

@@ -1,0 +1,29 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5em;
+  }
+  
+  .photo-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 1em;
+    transition: transform 0.3s ease;
+  }
+  
+  .photo-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .photo-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .loading-text {
+    font-size: 1.5em;
+    color: #888;
+  }
+  

@@ -1,0 +1,44 @@
+.contact {
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .contact h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+  
+  .contact p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+  }
+  
+  .contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5em;
+  }
+  
+  .contact-card {
+    padding: 1.5em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .contact-card a {
+    color: #4285f4;
+    text-decoration: none;
+  }
+  
+  .contact-card a:hover {
+    text-decoration: underline;
+  }
+  

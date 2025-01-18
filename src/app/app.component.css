@@ -1,0 +1,48 @@
+/* Ensure the entire page takes up the full height */
+:host {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Main content area should expand to fill the space between header and footer */
+  main {
+    flex: 1;
+    padding: 2em;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #222;
+    color: white;
+    padding: 1em 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+  }
+  
+  nav ul li a.active {
+    border-bottom: 2px solid #ff5733;
+    color: #ff5733;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
