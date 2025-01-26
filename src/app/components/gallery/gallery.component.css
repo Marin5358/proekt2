@@ -1,29 +1,52 @@
+.gallery {
+  padding: 2em;
+  text-align: center;
+}
+
+.gallery h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.gallery p {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
+
 .photo-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5em;
-  }
-  
-  .photo-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    text-align: center;
-    padding: 1em;
-    transition: transform 0.3s ease;
-  }
-  
-  .photo-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .photo-card img {
-    max-width: 100%;
-    border-radius: 8px;
-  }
-  
-  .loading-text {
-    font-size: 1.5em;
-    color: #888;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5em;
+}
+
+.photo-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.photo-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.photo-card h3 {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+
+.photo-card p {
+  font-size: 1em;
+  color: #555;
+  padding: 0 1em 1em;
+}

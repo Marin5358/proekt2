@@ -1,39 +1,83 @@
-.about {
-    padding: 2em;
-    text-align: center;
-  }
-  
-  .about h1 {
-    font-size: 2.5em;
-    margin-bottom: 1em;
-  }
-  
-  .about p {
-    font-size: 1.2em;
-    margin-bottom: 2em;
-  }
-  
-  .about-details {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5em;
-  }
-  
-  .about-card {
-    padding: 1.5em;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-  }
-  
-  .about-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .about-card h2 {
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-  }
-  
+.about-hero {
+  background: linear-gradient(135deg, #34a853, #4285f4);
+  color: white;
+  text-align: center;
+  padding: 3em;
+}
+
+.about-hero h1 {
+  font-size: 3.5em;
+  margin-bottom: 0.5em;
+}
+
+.about-hero p {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+}
+
+.our-story {
+  padding: 3em;
+  text-align: center;
+}
+
+.our-story h2 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+.our-story img {
+  margin-top: 2em;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mission-vision {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding: 3em;
+  background: #f9f9f9;
+}
+
+.mission, .vision {
+  width: 45%;
+  margin: 1em;
+}
+
+.team {
+  padding: 3em;
+  text-align: center;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2em;
+}
+
+.team-member img {
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+  margin-top: 1em;
+}
+
+.values {
+  padding: 3em;
+  background: #fff;
+  text-align: center;
+}
+
+.values ul {
+  list-style: none;
+  padding: 0;
+}
+
+.values ul li {
+  font-size: 1.2em;
+  margin: 1em 0;
+}
